@@ -1,0 +1,67 @@
+.customer-container {
+  width: 100%;
+  .customer-list {
+    display: flex;
+    width: 1170px;
+    margin: auto;
+  }
+}
+.customer-svg {
+  fill: #afb1b8;
+  transition-property: fill;
+  transition-duration: $time-duration;
+  transition-timing-function: $time-function;
+}
+.logo-1 {
+  width: 44.27px;
+}
+.logo-2 {
+  width: 40px;
+}
+.logo-3 {
+  width: 41px;
+}
+.logo-4 {
+  width: 80px;
+}
+.logo-5 {
+  width: 59px;
+}
+.logo-6 {
+  width: 88.48px;
+}
+.customer-link {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  margin-bottom: 95px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  overflow: hidden;
+  transition-property: border;
+  transition-duration: $time-duration;
+  transition-timing-function: $time-function;
+  &:focus,
+  &:hover {
+    border-color: $title-mailing;
+  }
+  &:focus svg,
+  &:hover svg {
+    fill: $title-mailing;
+  }
+}
+.customer-item:not(:last-child) {
+  margin-right: 30px;
+}
+.customer h2 {
+  text-align: center;
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+}

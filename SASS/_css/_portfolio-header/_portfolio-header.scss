@@ -1,0 +1,110 @@
+.header-container {
+  width: 100%;
+  border: 1px solid #ececec;
+  .header-section {
+    padding-top: 25px;
+    padding-bottom: 32px;
+  }
+  .section-nav-container {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+}
+.logo-item {
+  text-decoration: none;
+  .color-web {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    color: $title-mailing;
+  }
+  .color-studio {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+  }
+}
+.nav-container {
+  display: flex;
+  .nav-container-item {
+    width: 295px;
+    margin-left: 80px;
+  }
+}
+.nav-list {
+  display: flex;
+  .nav-item:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+.nav-link {
+  transition-property: color, border;
+  transition-duration: $time-duration;
+  transition-timing-function: $time-function;
+  padding-bottom: 34px;
+  &:focus,
+  &:hover {
+    color: $title-mailing;
+    border-bottom: 4px solid $title-mailing;
+  }
+}
+.adress-list {
+  display: flex;
+  margin-left: 305px;
+}
+.adress-item {
+  display: flex;
+  justify-content: center;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+nav a {
+  font-family: "roboto";
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+}
+.number-site-container {
+  margin-left: 10px;
+}
+.number-site {
+  color: #757575;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition-property: color;
+  transition-duration: $time-duration;
+  transition-timing-function: $time-function;
+  &:focus,
+  &:hover {
+    color: #2196f3;
+  }
+}
+.active-link {
+  border-bottom: 4px solid $title-mailing;
+  color: $title-mailing;
+}
+.icon-letter {
+  fill: #757575;
+  width: 16px;
+  height: 11.2px;
+  fill: currentColor;
+  margin-right: 10px;
+}
+.icon-smartfone {
+  width: 10px;
+  height: 15px;
+  fill: currentColor;
+  margin-right: 10px;
+}

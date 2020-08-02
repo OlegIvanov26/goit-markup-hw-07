@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+.invisible-item {
+  display: none;
+}
+@import "../SASS/_utilits/variable.scss";
+@import "../SASS/_css/_portfolio-header/portfolio-header";
+@import "../SASS/_css/_portfolio-navigation/navigation";
+@import "../SASS/_css/_portfolio-main/main";
+@import "../SASS/_css/portfolio-adress-bottom/adress-bottom";
+@import "../SASS/_css/portfolio-social-link/portfolio-social-link";
+@import "../SASS/_css/portfolio-input-bottom/input-bottom";
+@import "../SASS/_css/footer/footer";

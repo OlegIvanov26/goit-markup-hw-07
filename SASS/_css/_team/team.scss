@@ -1,0 +1,89 @@
+.team-container {
+  width: 100%;
+  background-color: #f5f4fa;
+  .team-list {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+  }
+  & h2 {
+    text-align: center;
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+  }
+}
+.team-item {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  margin-bottom: 95px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+  .photo-item {
+    margin-bottom: 30px;
+  }
+}
+.team-social-network-list {
+  width: 205px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 25px;
+  background-color: #ffffff;
+  .team-social-network-item {
+    margin-right: 10px;
+  }
+}
+.social-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: $time-duration;
+  transition-timing-function: $time-function;
+  &:focus,
+  &:hover {
+    background-color: $title-mailing;
+  }
+  &:focus svg,
+  &:hover svg {
+    fill: #ffffff;
+  }
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+  transition-property: fill;
+  transition-duration: $time-duration;
+  transition-timing-function: $time-function;
+}
+.name-item {
+  text-align: center;
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #212121;
+  margin-bottom: 10px;
+}
+.specialty {
+  text-align: center;
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+  margin-bottom: 15px;
+}

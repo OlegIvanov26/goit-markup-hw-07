@@ -1,0 +1,48 @@
+.banner-container {
+  width: 100%;
+  .banner-hero-icon {
+    max-width: 1600px;
+    height: 600px;
+    background-size: cover;
+    background-color: #000000;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.8),
+        rgba(47, 48, 58, 0.8)
+      ),
+      url(/images/Header_img.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+  }
+}
+.banner-title {
+  padding-top: 200px;
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.banner-button {
+  font-family: "roboto";
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: $title-mailing;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 45px;
+}

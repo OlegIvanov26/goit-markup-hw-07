@@ -1,0 +1,43 @@
+.navigation-section {
+  padding-top: 95px;
+  .navigation-container {
+    width: 610px;
+    margin: auto;
+  }
+  .navigtion-list {
+    display: flex;
+    .navigation-item {
+      margin-bottom: 50px;
+    }
+  }
+  .navigation-link {
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    padding: 6px 22px 6px 22px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition-property: background-color, color;
+    transition-duration: $time-duration;
+    transition-timing-function: $time-function;
+    & {
+      font-family: "roboto";
+      text-decoration: none;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 26px;
+      color: #212121;
+    }
+    &:focus,
+    &:hover {
+      background-color: $title-mailing;
+    }
+  }
+  .navigation-item:focus,
+  .navigation-item:hover a {
+    color: #ffffff;
+  }
+}
+.item-position:not(:last-child) {
+  margin-right: 8px;
+}

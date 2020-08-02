@@ -1,0 +1,78 @@
+.adress-container {
+  width: 100%;
+  background-color: $footer-color;
+  .adress-container {
+    width: 100%;
+    background-color: $footer-color;
+  }
+}
+.adress {
+  background-color: $footer-color;
+  width: 1170px;
+  display: flex;
+  margin: auto;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 30px;
+  & p {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  & a {
+    font-family: "roboto";
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+.logo-adress-bot-container {
+  margin-top: 48px;
+}
+.adress-list-bottom {
+  width: 230px;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+.adress-item-bottom:not(:first-child) {
+  margin-top: 10px;
+}
+.color-web-bot {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: $title-mailing;
+}
+.color-studio-white {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffffff;
+}
+address p {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+address a {
+  font-family: "roboto";
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}

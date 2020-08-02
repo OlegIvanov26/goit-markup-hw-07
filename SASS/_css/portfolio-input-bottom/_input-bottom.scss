@@ -1,0 +1,70 @@
+.mailing-container {
+  width: 570px;
+  display: flex;
+  margin-top: 55px;
+  margin-bottom: 95px;
+}
+.mailing-site {
+  justify-content: center;
+  align-items: center;
+  margin-left: 95px;
+}
+.label-mail {
+  text-decoration: none;
+  color: #ffffff;
+  font-style: normal;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.form-input {
+  width: 360px;
+  height: 50px;
+  background-color: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 18px 12px;
+  color: #ffffff;
+  font-family: "roboto";
+}
+.input-container {
+  display: flex;
+  margin-top: 20px;
+}
+.form-send-mail {
+  display: none;
+}
+.form-submit-container {
+  position: relative;
+}
+.botton-icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 28px;
+  top: 13px;
+}
+.form-submit {
+  position: absolute;
+  padding: 13px 0 0 29px;
+  display: block;
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+  background-color: $title-mailing;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
