@@ -17,14 +17,14 @@ li {
 }
 @import "../SASS/_utilits/variable.scss";
 @import "../SASS/_components/normolize.scss";
-@import "../SASS/_css/_header/header.scss";
-@import "../SASS/_css/_banner/banner.scss";
-@import "../SASS/_css/_drop-modal/drop.scss";
-@import "../SASS/_css/_Advantages/Advantages.scss";
-@import "../SASS/_css/_portfolio/portfolio.scss";
-@import "../SASS/_css/_team/team.scss";
-@import "../SASS/_css/_customer/customer";
-@import "../SASS/_css/_adress-bottom/adress-bottom";
-@import "../SASS/_css/_social-network/social-bottom";
-@import "../SASS/_css/_input-bottom/input-bottom";
-@import "../SASS/_css/footer/footer";
+@import "../SASS/_header/header";
+@import "../SASS/_banner/banner";
+@import "../SASS/_drop-modal/drop";
+@import "../SASS/_Advantages/Advantages";
+@import "../SASS/_portfolio/portfolio";
+@import "../SASS/_team/team";
+@import "../SASS/_customer/customer";
+@import "../SASS/_adress-bottom/adress-bottom";
+@import "../SASS/_social-network/social-bottom";
+@import "../SASS/_input-bottom/input-bottom";
+@import "../SASS/footer/footer";

@@ -4,13 +4,13 @@
     "sources": [
         "../SASS/portfolio.scss",
         "../SASS/_utilits/variable.scss",
-        "../SASS/_css/_portfolio-header/_portfolio-header.scss",
-        "../SASS/_css/_portfolio-navigation/_navigation.scss",
-        "../SASS/_css/_portfolio-main/_main.scss",
-        "../SASS/_css/portfolio-adress-bottom/_adress-bottom.scss",
-        "../SASS/_css/portfolio-social-link/_portfolio-social-link.scss",
-        "../SASS/_css/portfolio-input-bottom/_input-bottom.scss",
-        "../SASS/_css/footer/_footer.scss"
+        "../SASS/_portfolio-header/_portfolio-header.scss",
+        "../SASS/_portfolio-navigation/_navigation.scss",
+        "../SASS/_portfolio-main/_main.scss",
+        "../SASS/portfolio-adress-bottom/_adress-bottom.scss",
+        "../SASS/portfolio-social-link/_portfolio-social-link.scss",
+        "../SASS/portfolio-input-bottom/_input-bottom.scss",
+        "../SASS/footer/_footer.scss"
     ],
     "names": [],
     "file": "portfolio.css"
