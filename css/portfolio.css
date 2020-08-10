@@ -614,6 +614,7 @@ footer p {
 }
 
 footer {
+  width: 100%;
   background-color: #2f303a;
   display: -webkit-box;
   display: -ms-flexbox;
